@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletResponse;
 
-@Component
+//@Component
 public class ThrowExceptionFilter extends ZuulFilter  {
 
     private static Logger log = LoggerFactory.getLogger(ThrowExceptionFilter.class);
